@@ -15,7 +15,7 @@ export default function App() {
             <h1>Welcome to Tauri!</h1>
 
             <div className="row">
-            <a href="https://vitejs.dev" target="_blank">
+            <a href="https://deno.com" target="_blank">
                 <img src="https://camo.githubusercontent.com/7a37608c39244ad994b53f25944b2718658e6d6558c8309bee7696530cf82bdc/68747470733a2f2f64656e6f2e6c616e642f6c6f676f2e737667" className="logo vite" alt="Vite logo" />
             </a>
             <a href="https://tauri.app" target="_blank">
