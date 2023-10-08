@@ -1,0 +1,20 @@
+{
+  "lock": false,
+  "tasks": {
+  },
+  "compilerOptions": {
+    "lib": [
+      "deno.window", 
+      "dom"
+    ]
+  },
+  "imports": {
+    "$std/": "https://deno.land/std@0.202.0/",
+    "react": "https://esm.sh/react@18.2.0",
+    "react/": "https://esm.sh/react@18.2.0/",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
+    "react-dom/": "https://esm.sh/react-dom@18.2.0/",
+    "@tauri-apps/api/": "https://esm.sh/@tauri-apps/api@1.5.0/"
+  },
+  "exclude": ["src-tauri"]  
+}
