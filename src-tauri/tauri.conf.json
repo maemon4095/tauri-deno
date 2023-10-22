@@ -3,7 +3,7 @@
     "beforeDevCommand": "deno run -A build.ts serve --dev",
     "beforeBuildCommand": "deno run -A build.ts build",
     "devPath": "http://localhost:1420",
-    "distDir": "../public",
+    "distDir": "../dist",
     "withGlobalTauri": true
   },
   "package": {
