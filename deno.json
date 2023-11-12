@@ -1,8 +1,8 @@
 {
   "lock": false,
   "tasks": {
-    "dev": "deno run -A build.ts serve --dev",
-    "build": "deno run -A build.ts build"
+    "dev": "deno run --allow-read --allow-write --allow-env --allow-run --allow-net build.ts serve --dev",
+    "build": "deno run --allow-read --allow-write --allow-env --allow-run --allow-net build.ts build"
   },
   "compilerOptions": {
     "lib": []
