@@ -16,9 +16,9 @@ export default function App() {
       <div className="row">
         <a href="https://deno.com" target="_blank">
           <img
-            src="https://camo.githubusercontent.com/7a37608c39244ad994b53f25944b2718658e6d6558c8309bee7696530cf82bdc/68747470733a2f2f64656e6f2e6c616e642f6c6f676f2e737667"
+            src="/deno.svg"
             className="logo deno"
-            alt="Deno logo"
+            alt="Deno logo bit modified from https://github.com/denolib/high-res-deno-logo"
           />
         </a>
         <a href="https://tauri.app" target="_blank">

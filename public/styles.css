@@ -34,6 +34,14 @@
   filter: drop-shadow(0 0 2em #24c8db);
 }
 
+.logo.deno:hover {
+  filter: drop-shadow(0 0 2em white);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafb);
+}
+
 .row {
   display: flex;
   justify-content: center;
@@ -74,6 +82,7 @@ button {
 button:hover {
   border-color: #396cd8;
 }
+
 button:active {
   border-color: #396cd8;
   background-color: #e8e8e8;
@@ -103,6 +112,7 @@ button {
     color: #ffffff;
     background-color: #0f0f0f98;
   }
+
   button:active {
     background-color: #0f0f0f69;
   }

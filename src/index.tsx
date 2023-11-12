@@ -1,4 +1,6 @@
+/// <reference no-default-lib="true"/>
 /// <reference lib="dom" />
+/// <reference lib="dom.iterable" />
 
 import React from "react";
 import App from "./App.tsx";
