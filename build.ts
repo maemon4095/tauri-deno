@@ -1,5 +1,3 @@
-/// <reference lib="deno.window" />
-
 import { parse } from "$std/flags/mod.ts";
 import { Builder, BuilderOptions } from "https://raw.githubusercontent.com/maemon4095/tauri-deno-builder/main/src/mod.ts";
 
