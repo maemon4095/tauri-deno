@@ -1,7 +1,7 @@
 {
   "build": {
-    "beforeDevCommand": "deno run -A build.ts serve --dev",
-    "beforeBuildCommand": "deno run -A build.ts build",
+    "beforeDevCommand": "deno task dev",
+    "beforeBuildCommand": "deno task build",
     "devPath": "http://localhost:1415",
     "distDir": "../dist",
     "withGlobalTauri": true
