@@ -1,5 +1,5 @@
 import { parse } from "$std/flags/mod.ts";
-import { Builder, BuilderOptions } from "https://raw.githubusercontent.com/maemon4095/tauri-deno-builder/main/src/mod.ts";
+import { Builder, BuilderOptions } from "https://raw.githubusercontent.com/maemon4095/deno-esbuilder/release/v0.2.0/src/mod.ts";
 
 const args = parse(Deno.args, {
   boolean: ["dev"],
@@ -8,8 +8,11 @@ const is_dev = args.dev;
 const mode = args._[0];
 
 const commonOptions: BuilderOptions = {
+  documentFilePath: "./index.html",
   denoConfigPath: "./deno.json",
-  staticResources: ["public"]
+  loader: {
+    ".svg": "file"
+  }
 };
 
 const options: BuilderOptions = is_dev ? commonOptions : {
