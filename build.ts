@@ -15,9 +15,11 @@ const commonOptions: BuilderOptions = {
   }
 };
 
-const options: BuilderOptions = is_dev ? commonOptions : {
+const options: BuilderOptions = is_dev ? {
   ...commonOptions,
-  minifySyntax: true,
+  minifySyntax: false,
+} : {
+  ...commonOptions,
   dropLabels: ["DEV"]
 };
 
